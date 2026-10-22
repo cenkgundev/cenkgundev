@@ -1,39 +1,34 @@
-<p align="center">
-  <img src="assets/banner.svg" width="100%" alt="CENK GÜN · software for machines, screens and people">
-</p>
+# CLAUDE.md
 
-```text
-> whoami
-  cenk gün · independent software engineer · istanbul
+Context for any agent, or human, working with **Cenk Gün**.
 
-> cat ./focus
-  native apps for every screen in the house: phone, tablet, mac, tv
-  software that talks to real machines: industrial protocols, live sensors, closed loops
-  emulators, so a machine can be tested before it is in the room
-  agentic engineering: shipping with ai agents as the build crew, not the autocomplete
+## Who
 
-> uptime --mode
-  building. shipping. calibrating.
-```
+Independent software engineer in Istanbul. I build native apps for every screen in the house, and software that talks to real machines. Most of the code is written by agents. I write the intent and make the calls.
 
-<p align="center">
-  <img src="assets/loadout.svg" width="100%" alt="Loadout: Swift, SwiftUI, AVFoundation, StoreKit · Kotlin, Compose, Compose TV, Media3, Coroutines · Modbus, Siemens S7, RS-485/USB, Emulation · Supabase, Postgres, Claude Code, MCP">
-</p>
+## How we work
 
-### `// open signals`
+- Intent first. Every feature starts as a spec, then a plan an engineer who has never seen the repo could follow.
+- One task, one fresh agent, one fresh reviewer. Nobody grades their own work.
+- If it talks to hardware, build an emulator first and break the software on the twin.
+- Rulings over questions. Decide, write down why, keep going. I read the log in the morning.
+- Tests are the evidence. "Should work" is not a status.
 
-| | |
-|---|---|
-| [**design-award-lens**](https://github.com/cenkgundev/design-award-lens) | A Claude Code skill that finds AI slop in Apple-platform app design and fixes it, measured against what Apple Design Award winners actually do. |
+## Conventions
 
-### `// protocol`
+- Talk to me in Turkish. Code, commits and docs in English.
+- UI has labels, verbs and status words, never paragraphs.
+- Bump the build number, not the version.
+- Reports are a few lines. Details on request.
 
-```text
-build the real thing, then a twin to break it on
-fewer words on screen, more meaning per pixel
-if it ships on monday, it gets tested on sunday
-```
+## Stack
 
-<p align="center">
-  <sub><code>SYS://CENKGUNDEV</code> · transmission ends · <code>EOF</code></sub>
-</p>
+`Swift` `SwiftUI` `Kotlin` `Compose` `Media3` `Modbus` `Siemens S7` `Supabase` `Claude Code` `MCP`
+
+## Open source
+
+- [design-award-lens](https://github.com/cenkgundev/design-award-lens): a Claude Code skill that finds AI slop in Apple-platform app design and fixes it, measured against Apple Design Award winners.
+
+## Do not
+
+- Ask "should I continue?" Continue.
