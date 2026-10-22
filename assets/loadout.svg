@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Loadout: Swift, SwiftUI, Kotlin, Compose, Media3, Modbus, S7, Supabase, Postgres, Claude Code">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#07080e"/>
+      <stop offset="1" stop-color="#0d0b16"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace; }
+    .h { fill: #7df9ff; font-size: 13px; letter-spacing: 3px; opacity: .8; }
+    .k { fill: #8a8fb3; font-size: 12px; letter-spacing: 2px; }
+    .chip rect { fill: #0f1220; stroke-width: 1.2; }
+    .chip text { font-size: 15px; letter-spacing: 1px; fill: #e8ecff; }
+    .c1 rect { stroke: #7df9ff; } .c2 rect { stroke: #b48cff; } .c3 rect { stroke: #ff4fd8; } .c4 rect { stroke: #5dffa1; }
+    .on { animation: on 4s ease-in-out infinite; }
+    @keyframes on { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
+    .d1 { animation-delay: 0s; } .d2 { animation-delay: .5s; } .d3 { animation-delay: 1s; } .d4 { animation-delay: 1.5s; }
+    .bar { animation: fill 3s ease-out infinite alternate; transform-box: fill-box; transform-origin: left; }
+    @keyframes fill { from { transform: scaleX(.15); } to { transform: scaleX(1); } }
+  </style>
+
+  <rect width="1200" height="300" rx="14" fill="url(#bg)"/>
+  <rect x=".5" y=".5" width="1199" height="299" rx="14" fill="none" stroke="#2a2d48"/>
+  <text x="40" y="46" class="mono h">// LOADOUT</text>
+  <text x="1160" y="46" class="mono k" text-anchor="end">MODULES ONLINE: 4</text>
+
+  <!-- row labels -->
+  <text x="40" y="104" class="mono k">APPLE</text>
+  <text x="40" y="160" class="mono k">ANDROID · JVM</text>
+  <text x="40" y="216" class="mono k">MACHINES</text>
+  <text x="40" y="272" class="mono k">BACKEND · AGENTS</text>
+
+  <g class="mono" filter="url(#glow)">
+    <g class="chip c1 on d1" transform="translate(250 82)">
+      <rect width="104" height="34" rx="17"/><text x="52" y="22" text-anchor="middle">Swift</text>
+    </g>
+    <g class="chip c1 on d1" transform="translate(366 82)">
+      <rect width="120" height="34" rx="17"/><text x="60" y="22" text-anchor="middle">SwiftUI</text>
+    </g>
+    <g class="chip c1 on d1" transform="translate(498 82)">
+      <rect width="140" height="34" rx="17"/><text x="70" y="22" text-anchor="middle">AVFoundation</text>
+    </g>
+    <g class="chip c1 on d1" transform="translate(650 82)">
+      <rect width="120" height="34" rx="17"/><text x="60" y="22" text-anchor="middle">StoreKit</text>
+    </g>
+
+    <g class="chip c2 on d2" transform="translate(250 138)">
+      <rect width="104" height="34" rx="17"/><text x="52" y="22" text-anchor="middle">Kotlin</text>
+    </g>
+    <g class="chip c2 on d2" transform="translate(366 138)">
+      <rect width="120" height="34" rx="17"/><text x="60" y="22" text-anchor="middle">Compose</text>
+    </g>
+    <g class="chip c2 on d2" transform="translate(498 138)">
+      <rect width="140" height="34" rx="17"/><text x="70" y="22" text-anchor="middle">Compose TV</text>
+    </g>
+    <g class="chip c2 on d2" transform="translate(650 138)">
+      <rect width="120" height="34" rx="17"/><text x="60" y="22" text-anchor="middle">Media3</text>
+    </g>
+    <g class="chip c2 on d2" transform="translate(782 138)">
+      <rect width="120" height="34" rx="17"/><text x="60" y="22" text-anchor="middle">Coroutines</text>
+    </g>
+
+    <g class="chip c3 on d3" transform="translate(250 194)">
+      <rect width="104" height="34" rx="17"/><text x="52" y="22" text-anchor="middle">Modbus</text>
+    </g>
+    <g class="chip c3 on d3" transform="translate(366 194)">
+      <rect width="120" height="34" rx="17"/><text x="60" y="22" text-anchor="middle">Siemens S7</text>
+    </g>
+    <g class="chip c3 on d3" transform="translate(498 194)">
+      <rect width="140" height="34" rx="17"/><text x="70" y="22" text-anchor="middle">RS-485 · USB</text>
+    </g>
+    <g class="chip c3 on d3" transform="translate(650 194)">
+      <rect width="120" height="34" rx="17"/><text x="60" y="22" text-anchor="middle">Emulation</text>
+    </g>
+
+    <g class="chip c4 on d4" transform="translate(250 250)">
+      <rect width="104" height="34" rx="17"/><text x="52" y="22" text-anchor="middle">Supabase</text>
+    </g>
+    <g class="chip c4 on d4" transform="translate(366 250)">
+      <rect width="120" height="34" rx="17"/><text x="60" y="22" text-anchor="middle">Postgres</text>
+    </g>
+    <g class="chip c4 on d4" transform="translate(498 250)">
+      <rect width="140" height="34" rx="17"/><text x="70" y="22" text-anchor="middle">Claude Code</text>
+    </g>
+    <g class="chip c4 on d4" transform="translate(650 250)">
+      <rect width="120" height="34" rx="17"/><text x="60" y="22" text-anchor="middle">MCP</text>
+    </g>
+  </g>
+
+  <!-- signal meters -->
+  <g transform="translate(960 82)">
+    <text x="0" y="12" class="mono k">SIGNAL</text>
+    <rect x="0" y="22" width="200" height="6" rx="3" fill="#1a1d30"/>
+    <rect x="0" y="22" width="200" height="6" rx="3" fill="#7df9ff" class="bar"/>
+    <text x="0" y="68" class="mono k">FOCUS</text>
+    <rect x="0" y="78" width="200" height="6" rx="3" fill="#1a1d30"/>
+    <rect x="0" y="78" width="170" height="6" rx="3" fill="#b48cff" class="bar"/>
+    <text x="0" y="124" class="mono k">COFFEE</text>
+    <rect x="0" y="134" width="200" height="6" rx="3" fill="#1a1d30"/>
+    <rect x="0" y="134" width="200" height="6" rx="3" fill="#ff4fd8" class="bar"/>
+  </g>
+</svg>
